@@ -1,0 +1,17 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 0;
+    /*margin-top: 5px;
+    border-width: 4px;
+    border-color: gray;
+    border-style: solid;*/
+}
+.animDireita{
+    transition: 2s;
+    margin-left: 100px;
+    background-color: green;
+}
+
+

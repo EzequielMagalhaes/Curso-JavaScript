@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 - Cálculo idade</title>
+</head>
+<body>
+    <script>
+        var anoNascimento = prompt("Informe o ano do seu nascimento: ");
+        while(anoNascimento >= 2022){
+            alert('Por favor inserir um ano menor que o ano atual');
+            var anoNascimento = prompt("Informe o ano do seu nascimento: ");
+        }
+        var anoAtual = prompt("Informe o ano atual: ");
+
+        var resultado = anoAtual - anoNascimento; 
+        
+        if(resultado >= 18){
+            alert(resultado + ' anos - Você é maior de idade!');
+        }else{
+            alert(resultado + ' anos - Você é menor de idade!');
+        }
+    </script>
+</body>
+</html>
