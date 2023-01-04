@@ -38,7 +38,7 @@ document.querySelector('input[type=submit]')
     let elementoSoma = document.querySelector('.soma-produto h2');
     elementoSoma.innerHTML = 'R$:'+soma;
 
-}).addEventListener('submit',logSubmit);
+})
 
 document.querySelector('button[name=limpar]')
 .addEventListener('click',()=>{
